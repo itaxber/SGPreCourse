@@ -9,6 +9,12 @@ Most Recent Revision
 
 <head>
     <title>Ian's Portfolio</title>
+	<link href="styles/teststyles.css" rel="stylesheet" type="text/css" />
+	<style>
+		header {
+			background-color: darkgrey;
+		}
+	</style>
 </head>
 
 <body>
@@ -19,19 +25,20 @@ Most Recent Revision
 		<img src="images/Equipment.png" />
 		</a>
 	<!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-	<nav> 
+	<nav class="border"> 
 	<hr style="border: thin dotted red;" />
 		<p><a href="projects.html">Projects</a></p>
 		<p><a href="contact.html">Contact Me</a></p>
-	<hr />
+		<p><a href="testimonials.html">Testimonials</a></p>
+	<hr style="width: 50%; border: 2px solid blueviolet;" />
 	</nav>
-        <section id="about-me">
-		<h2><em>About Me</em></h2>
+    <section class="border" id="about-me">
+			<h2><em>About Me</em></h2>
 		<img src= "images/equipment.png" alt="portrait of ian axberg" />
 		<p>Sed nisi est, aliquam non gravida et, euismod id ex. <strong>Praesent molestie metus justo</strong>, non tristique nisl blandit id. Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur.</p>
 		<p>Vivamus nec sollicitudin diam, <strong>at posuere augue</strong>. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
 	</section>	
-	<section id="past-expirences">
+	<section id="experience">
 		<h2><em>Past Expirences</em></h2>
 		<img src= "images/hey.jpg" alt="portrait of ian axberg" />
 		<table>
@@ -89,7 +96,7 @@ Most Recent Revision
 			</ul>
 	</ul>	
 	</section>
-	<footer>
+	<footer style="background-color: fuchsia">
 		<hr />
 		<p>&copy; 2020 Ian Axberg. All rights reserved.
 		</p>
