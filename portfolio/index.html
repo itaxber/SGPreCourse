@@ -9,45 +9,54 @@ Most Recent Revision
 
 <head>
     <title>Ian's Portfolio</title>
-	<link href="styles/teststyles.css" rel="stylesheet" type="text/css" />
-	<style>
-		header {
-			background-color: darkgrey;
-		}
-	</style>
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<style>
+			header, footer {
+				background-color: #5b7d87;
+				color: #fef9ff
+				height: 100px;
+				text-align: center;
+				padding: 30px 10px 20px 10px;
+			}
+			
+			h1 {
+				font-size: 2.5em;
+			}
+		</style>
 </head>
 
 <body>
     <header>
 	<h1>Portfolio for Ian</h1>
 	</header>
-    <a href="#hobbies" target="_blank">
-		<img src="images/Equipment.png" />
-		</a>
-	<!-- We need to add links to projects.html, contact.html, and testimonials.html -->
-	<nav class="border"> 
-	<hr style="border: thin dotted red;" />
-		<p><a href="projects.html">Projects</a></p>
-		<p><a href="contact.html">Contact Me</a></p>
-		<p><a href="testimonials.html">Testimonials</a></p>
-	<hr style="width: 50%; border: 2px solid blueviolet;" />
-	</nav>
+    <!-- We need to add links to projects.html, contact.html, and testimonials.html -->
+		<nav>  
+			<p><a href="projects.html">Projects</a></p>
+			<p><a href="contact.html">Contact Me</a></p>
+			<p><a href="testimonials.html">Testimonials</a></p>
+			<div class="clear-float"></div>
+		</nav>
     <section class="border" id="about-me">
 			<h2><em>About Me</em></h2>
-		<img src= "images/equipment.png" alt="portrait of ian axberg" />
+		<img src= "images/equipment.png" alt="portrait of ian axberg" width="250" />
 		<p>Sed nisi est, aliquam non gravida et, euismod id ex. <strong>Praesent molestie metus justo</strong>, non tristique nisl blandit id. Proin porta nisl eros, vitae laoreet eros vestibulum in. Integer faucibus malesuada purus quis consectetur.</p>
 		<p>Vivamus nec sollicitudin diam, <strong>at posuere augue</strong>. Nunc pulvinar imperdiet massa ut tincidunt. Pellentesque ac tincidunt metus, nec molestie magna.</p>
+		<div class="clear-float"></div>
 	</section>	
 	<section id="experience">
 		<h2><em>Past Expirences</em></h2>
-		<img src= "images/hey.jpg" alt="portrait of ian axberg" />
+		<img src= "images/hey.jpg" alt="portrait of ian axberg" width="250" />
+		<div class="right-content">
 		<table>
 			<caption>Employment History</caption>
+			<thead>
 			<tr>
 				<th>Years Of Employment</th>
 				<th>Employer</th>
 				<th>Title</th>
 			</tr>
+			</thead>
+			<tbody>
 			<tr>
 				<td>2010-Present</td>
 				<td>Wal-Mart</td>
@@ -63,41 +72,47 @@ Most Recent Revision
 				<td>Guitar Center</td>
 				<td>Drum Sales Associate</td>
 			</tr>
+			</tbody>
 		</table>
+		</div>
+		<div class="clear-float"></div>
 	</section>
 	<section id="hobbies">
 		<h2><em>Hobbies</em></h2>
-	<ul>
-		<li>Drumming</li>
-			<ol>	
-				<li>Rudimental Excersises</li>
-				<li>Click Track Practice</li>
-				<li>Footwork</li>
-			</ol>
-		<li>Video Games</li>
-			<ol>	
-				<li>Minecraft</li>
-				<li>Fortnite</li>
-				<li>Final Fantasy</li>
-			</ol>
-	</ul>
-	<ul>
-		<li>Sports</li>
-			<ul>	
-				<li>Baseball</li>
-				<li>Football</li>
-				<li>Hockey</li>
+		<img src= "images/hobbies.jpg" alt="portrait of ian axberg" width="250" />
+		<div class="right-content">
+			<ul>
+				<li>Drumming</li>
+				<ol>	
+					<li>Rudimental Excersises</li>
+					<li>Click Track Practice</li>
+					<li>Footwork</li>
+				</ol>
+				<li>Video Games</li>
+				<ol>	
+					<li>Minecraft</li>
+					<li>Fortnite</li>
+					<li>Final Fantasy</li>
+				</ol>
 			</ul>
-		<li>Outdoor Activities</li>
-			<ul>	
-				<li>Hiking</li>
-				<li>Camping</li>
-				<li>Swimming</li>
+			<ul>
+				<li>Sports</li>
+				<ul>	
+					<li>Baseball</li>
+					<li>Football</li>
+					<li>Hockey</li>
+				</ul>
+				<li>Outdoor Activities</li>
+				<ul>	
+					<li>Hiking</li>
+					<li>Camping</li>
+					<li>Swimming</li>
+				</ul>
 			</ul>
-	</ul>	
+		</div>
+		<div class="clear-float"></div>	
 	</section>
-	<footer style="background-color: fuchsia">
-		<hr />
+	<footer>
 		<p>&copy; 2020 Ian Axberg. All rights reserved.
 		</p>
 	</footer>
