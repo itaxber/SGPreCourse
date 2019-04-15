@@ -1,0 +1,19 @@
+.align-right {
+	text-align: right;
+}
+.input-checkbox {
+	margin-left: 5px;
+}
+
+label {
+	text-align: right;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.input-width {
+	width: 350px;
+	max-width: 350px;
+}
