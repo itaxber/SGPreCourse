@@ -39,6 +39,10 @@ body{
 	background-color: gold !important;
 }
 
+nav i {
+	float: left;
+}
+
 nav a {
 	background-color: #800080;
 	color: #FFD700;
@@ -46,14 +50,13 @@ nav a {
 	border: thin solid #0d1f2d;
 	text-decoration: none;
 	text-align: center;
-	display: block;
 	margin: 20px;
-	width: 100px;
+	width: 110px;
 	float: left;
 }
 
 nav a:hover {
-	background-color: #fef9ff;
+	background-color: #800080;
 	color: #5b7d87;
 	font-weight: bold;
 }
@@ -77,6 +80,7 @@ table, th, td {
 	border-collapse; collapse;
 	padding: 5px 10px;
 }
+
 td {
 	color: #000000;
 	
@@ -135,6 +139,11 @@ label, fieldset {
 	float:left;
 }
 
+#jumbotop {
+	background: #800080;
+	margin-bottom: 0;
+}
+
 article {
 	text-align: center;
 }
@@ -147,11 +156,18 @@ a{
 	text-decoration: none !important;
 }
 
-.input-width{
+.input-width {
 	width: 700px
 }
 
 .primary {
-	background: purple !important;
+	background: #800080 !important;
 	color: #ffffff;
+}
+
+#home-button {
+	background-color: transparent;
+	color: #800080;
+	border: none;
+	
 }

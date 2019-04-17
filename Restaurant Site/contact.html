@@ -9,35 +9,46 @@
         <title>Contact Us</title>
 		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	</head> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    </head> 
     
     <body>
         <header>
             <h1>The Dirty Burger&reg;</h1>	
 		</header>
 		<nav>
-				<a href="index.html">Home</a>
-				<a href="menu.html">Menu</a>
-				<a href="Contact.html">Contact Us</a>
+				<a id="home-button" class="fas fa-home fa-2x" href="index.html"></a>
+				<a class="badge-pill" href="menu.html">Menu</a>
+				<a class="badge-pill" href="Contact.html">Contact Us</a>
 				<div class="clear-float"></div>
 		</nav>
-		<form>
+		<form class="was-validated">
             <div class="form-group row">
                 <label for="name" class="col-sm-3 col-form-label">Name</label>
                 <div class="col-sm-9">
-                    <input type="text" class="form-control input-width" id="name" placeholder="Name">
+                    <input type="text" class="form-control input-width is-invalid" id="name" placeholder="Name" required>
+                        <div class="invalid-feedback">
+                            Please enter your name      
+                        </div>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="email" class="col-sm-3 col-form-label">Email</label>
                 <div class="col-sm-9">
-                    <input type="email" class="form-control input-width" id="email" placeholder="Email">
+                    <input type="email" class="form-control input-width is-invalid" id="email" placeholder="Email" required>
+                    <div class="invalid-feedback">
+                            Please enter your e-mail      
+                        </div>
                 </div>
             </div>
             <div class="form-group row">
                 <label for="phone" class="col-sm-3 col-form-label">Phone</label>
                 <div class="col-sm-9">
-                    <input type="tel" class="form-control input-width" id="phone" placeholder="Phone">
+                    <input type="tel" class="form-control input-width is-invalid" id="phone" placeholder="Phone" required>
+                    <div class="invalid-feedback">
+                            Please enter your phone number      
+                        </div>
                 </div>
             </div>
             <div class="form-group row">
