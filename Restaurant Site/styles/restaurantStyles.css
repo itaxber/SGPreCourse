@@ -148,11 +148,7 @@ article {
 	text-align: center;
 }
 
-article p {
-	text-align: left;
-}
-
-a{
+a {
 	text-decoration: none !important;
 }
 
@@ -170,4 +166,12 @@ a{
 	color: #800080;
 	border: none;
 	
+}
+
+p {
+	text-align: center;
+}
+
+.about-us {
+	align: center;
 }
